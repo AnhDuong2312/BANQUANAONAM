@@ -1,0 +1,115 @@
+.product-details {
+    display: flex;   
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+  
+  .product-image_detail {
+    max-width: 500px;
+    height: 500px;
+  }
+  
+  .product-content {
+    max-width: 1;
+    padding-left: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-content p{
+    color: #000;
+    
+  }
+  
+ .three-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 340px;
+    padding: 10px;
+    background-color: #ddd;
+   margin-top: 60px;
+ }
+ .three{
+    width: 100%;
+    height: 100px;
+ }
+  .size-selection,
+  .quantity-selection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .size-selection p,
+  .quantity-selection p{
+    width: 130px;
+  }
+  
+  .size-option {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+
+  }
+  
+  .selected {
+    border-color: #000;
+    font-weight: bold;
+  }
+  
+  .quantity-selection button {
+    padding: 5px 10px;
+    height: 30px;
+  }
+  
+  .action-buttons .add-to-cart,
+  .action-buttons .buy-now {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now {
+    background-color: #ffcc00;
+    color: white;
+  }
+  .description_product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding-left: 10px; 
+    margin-top: 30px;
+    
+  }
+  
+  .description_product p {
+    margin: 0 0 10px 0; 
+    white-space: pre-line; 
+  }
+
+  .description_product b{
+    font-size: 20px;
+  }
+  
+  

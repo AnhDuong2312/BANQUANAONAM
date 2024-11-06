@@ -1,0 +1,52 @@
+.chantrang {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  h3{
+    color: rgb(122, 189, 127);
+    font-size: 25px;
+  }
+  h4{
+    color: rgb(169, 203, 233);
+    font-size: 20px;
+  }
+
+  p{
+    color: white;
+    font-size: 15px;
+    width: 350px;
+  }
+
+  .left div{
+    margin-top: 40px;
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  .coso2{
+    margin-left: 15px;
+  }
+
+  .icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .right h4{
+    margin-top: 40px;
+  }
+
+ 
+  

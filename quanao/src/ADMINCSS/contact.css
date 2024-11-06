@@ -1,0 +1,47 @@
+.ContactAdmin {
+    width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .ContactAdmin h2 {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px;  
+  }
+  
+  .message-card {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    transition: box-shadow 0.3s; 
+  }
+  
+  .message-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .message-card h4 {
+    font-size: 20px; 
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .message-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .loading-text {
+    font-size: 16px;
+    color: #007bff; 
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
